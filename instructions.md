@@ -2,12 +2,12 @@ Today we're going to create the database and models for a simple trail tracker w
 
 ## Migrations
 - Create a migration for a Users table.  A User will have a name and email.
-- Create a migration for a Trails table. A trail will have a name, location, and length. A trail will be associated with a user.
+- Create a migration for a Trails table. A trail will have a name, location, and length (all strings). A trail will be associated with a user.
 - Add a birthdate column to the Users table
 - Add a difficulty column to the Trails table
-- On the Users table, change the name of the 'name' column to 'username'
+- On the Trails table, change the type of the 'length' column to 'integer'
 - Run your migrations
-- Where will you check to see if your migrations were successful?a
+- Where will you check to see if your migrations were successful?
 
 ## Models
 - Create a User model
@@ -18,7 +18,7 @@ Today we're going to create the database and models for a simple trail tracker w
 - Add some dummy data to your db.  (Use the Faker gem if you wish.  Create and run a seed file if you're feeling really ambitious!)
 
 - In console, test your associations by getting a User instance and saving it to a variable.  Get a collection of that user's trails.  Use ActiveRecord methods for everything
-- Test your association in the other direction using AR methods.  Save an instance of a trail in a variable, and query that trail's user with AR.
+- Test your association in the other direction using AR methods.  Save an instance of a trail to a variable, and query that trail's user with AR.
 
 - Now you've done Create and Read functions with your database. Time to test Update and Destroy!  Update a record through your model(s).  Delete one.
 
