@@ -7,6 +7,7 @@ Today we're going to create the database and models for a simple trail tracker w
 - Add a difficulty column to the Trails table
 - On the Trails table, change the type of the 'length' column to 'integer'
 - Run your migrations
+- Rollback the last migration--and probably fix the error ;)
 - Where will you check to see if your migrations were successful?
 
 ## Models
@@ -31,4 +32,4 @@ Let's use more of those methods AR gives us when we define model assocations usi
 - create a new trail object and create it's association to an existing user instance by chaining ActiveRecord methods
 
 - chain AR methods to find out how many trails belong to an instance of user
-- chain AR methods to delete all of the trails the belong to an instance of a user
+- chain AR methods to delete all of the trails that belong to an instance of a user
