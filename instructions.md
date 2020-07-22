@@ -5,7 +5,7 @@ Today we're going to create the database and models for a simple trail tracker w
 - Create a migration for a Trails table. A trail will have a name, location, and length (all strings). A trail will be associated with a user.
 - Add a birthdate column to the Users table
 - Add a difficulty column to the Trails table
-- On the Trails table, change the type of the 'length' column to 'integer'
+- On the Trails table, change the type of the 'length' column to 'integer' [Hint](https://dev.to/neshaz/multiple-ways-to-change-database-column-in-rails-34m0)
 - Run your migrations
 - Rollback the last migration--and probably fix the error ;)
 - Where will you check to see if your migrations were successful?
